@@ -1,0 +1,96 @@
+.b0,
+.b1,
+.b2,
+.b3,
+.b4,
+.b5,
+.b6,
+.b7,
+.b8 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    line-height: 100px;
+    text-align: center;
+    font-size: 100px;
+}
+
+.b0 {
+    margin-left: 300px;
+    margin-top: 40px;
+}
+
+.b1 {
+    margin-left: 400px;
+    margin-top: 40px;
+}
+
+.b2 {
+    margin-left: 500px;
+    margin-top: 40px;
+}
+
+.b3 {
+    margin-left: 300px;
+    margin-top: 140px;
+}
+
+.b4 {
+    margin-left: 400px;
+    margin-top: 140px;
+}
+
+.b5 {
+    margin-left: 500px;
+    margin-top: 140px;
+}
+
+.b6 {
+    margin-left: 300px;
+    margin-top: 240px;
+}
+
+.b7 {
+    margin-left: 400px;
+    margin-top: 240px;
+}
+
+.b8 {
+    margin-left: 500px;
+    margin-top: 240px;
+}
+
+.main {
+    margin-top: 50px;
+    margin-left: 700px;
+}
+
+.cross {
+    position: absolute;
+    color: black;
+    font-size: 100px;
+    margin-left: 100px;
+}
+
+.circle {
+    position: absolute;
+    color: black;
+    font-size: 100px;
+}
+
+.symbol:hover {
+    color: orange;
+}
+
+#clear {
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+#undo {
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 140px;
+}
