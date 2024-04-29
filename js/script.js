@@ -146,7 +146,11 @@ function wins(b1, b2, b3) {
     box.forEach(function (e) {
         e.setAttribute("data-disabled", "true");
     });
-    // alert(winName.innerHTML === "Player 1 turn" ? "Player 2 wins" : "Player 1 wins");
+    if(chsSymbol.innerHTML === "Player 1 turn") {
+        chsSymbol.innerHTML = "Player 2 wins";
+    } else {
+        chsSymbol.innerHTML = "Player 1 wins";
+    }
 }
 
 document.getElementById('clear').addEventListener("click", () => {

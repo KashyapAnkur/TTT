@@ -14,6 +14,7 @@
     line-height: 100px;
     text-align: center;
     font-size: 100px;
+    cursor: pointer;
 }
 
 .b0 {
@@ -71,12 +72,14 @@
     color: black;
     font-size: 100px;
     margin-left: 100px;
+    cursor: pointer;
 }
 
 .circle {
     position: absolute;
     color: black;
     font-size: 100px;
+    cursor: pointer;
 }
 
 .symbol:hover {
@@ -86,11 +89,13 @@
 #clear {
     position: absolute;
     margin-left: 100px;
-    margin-top: 100px;
+    margin-top: 10%;
+    cursor: pointer;
 }
 
 #undo {
     position: absolute;
     margin-left: 100px;
-    margin-top: 140px;
+    margin-top: 12%;
+    cursor: pointer;
 }
